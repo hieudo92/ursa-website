@@ -293,3 +293,12 @@ a.text-primary:focus {
     border-right-color: #d87c08;
     border-top-color: #d87c08;
 }
+.ursa-what-we-do{
+    height: 295px;
+}
+.history-page #topnav, .about-page #topnav, .service-page #topnav, .team-page #topnav, .contact-page #topnav{
+    background-color: #f7961c;
+}
+#topnav.nav-sticky{
+    background: #ffffff !important;
+}

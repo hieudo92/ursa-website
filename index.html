@@ -24,14 +24,48 @@
         <!-- Magnific -->
         <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" media="screen" />
         <!-- Icons -->
-        <link href="css/materialdesignicons.min.css" rel="stylesheet|preload" type="text/css" media="screen" />
-        <link rel="preload" as="style" href="https://unicons.iconscout.com/release/v3.0.3/css/line.css"  media="screen">
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" media="screen" />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.3/css/line.css" type="text/css" media="screen">
         <!-- Slider -->               
         <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" media="screen" />
         <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css" media="screen" />
         <!-- Main Css -->
         <link href="css/style.min.css" rel="stylesheet" type="text/css" media="screen" id="theme-opt" />
         <link href="css/colors/yellow.css" rel="stylesheet" type="text/css" media="screen" id="color-opt">
+        <style>
+            :root {
+                --uim-primary-opacity: 1;
+                --uim-secondary-opacity: 0.70;
+                --uim-tertiary-opacity: 0.50;
+                --uim-quaternary-opacity: 0.25;
+                --uim-quinary-opacity: 0;
+            }
+            .uim-svg {
+                display: inline-block;
+                height: 1em;
+                vertical-align: -0.125em;
+                font-size: inherit;
+                fill: var(--uim-color, currentColor);
+            }
+            .uim-svg svg {
+                display: inline-block;
+            }
+            .uim-primary {
+                opacity: var(--uim-primary-opacity);
+            }
+            .uim-secondary {
+                opacity: var(--uim-secondary-opacity);
+            }
+            .uim-tertiary {
+                opacity: var(--uim-tertiary-opacity);
+            }
+            .uim-quaternary {
+                opacity: var(--uim-quaternary-opacity);
+            }
+            .uim-quinary {
+            opacity: var(--uim-quinary-opacity);
+            }
+        </style>
     </head>
 
     <body>
@@ -53,13 +87,13 @@
                 <div>
                     <a class="logo" href="index.html">
                         <img src="images/logo-dark.png" class="l-dark" height="24" alt="">
-                        <img src="images/logo-light.webp" class="l-light" height="24" alt="">
+                        <img src="images/UrsaLogoLight.png" class="l-light" height="24" alt="">
                     </a>
                 </div>
                 <div class="buy-button">
-                    <a href="page-aboutus.html" target="_blank" rel="noreferrer">
-                        <div class="btn btn-primary login-btn-primary">Contact Now</div>
-                        <div class="btn btn-light login-btn-light">Contact Now</div>
+                    <a href="page-contact.html" target="_blank" rel="noreferrer">
+                        <div class="btn btn-primary login-btn-primary">お問い合わせ</div>
+                        <div class="btn btn-light login-btn-light">お問い合わせ</div>
                     </a>
                 </div><!--end login button-->
                 <!-- End Logo container-->
@@ -80,11 +114,11 @@
                 <div id="navigation">
                     <!-- Navigation Menu-->   
                     <ul class="navigation-menu nav-light">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="page-aboutus.html"> About Us</a></li>
-                        <li><a href="page-services.html">Services</a></li>
-                        <li><a href="page-history.html">History </a></li>
-                        <li><a href="page-team.html"> Team</a></li>
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="page-aboutus.html">会社概要</a></li>
+                        <li><a href="page-services.html">開発サービス</a></li>
+                        <li><a href="page-history.html">開発実績</a></li>
+                        <li><a href="page-team.html"> チーム</a></li>
                     </ul><!--end navigation menu-->
                 </div><!--end navigation-->
             </div><!--end container-->
@@ -119,21 +153,74 @@
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
                         <div class="section-title mb-4 pb-2">
-                            <h4 class="title mb-4">What we do ?</h4>
-                            <p class="para-desc mb-0 mx-auto">Start working with <span class="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                            <h4 class="title mb-4">URSA - IT開発サービス</h4>
+                            <p class="para-desc mb-0 mx-auto">WEBシステム、iOS・Android向けアプリ、業務システムの開発や、運用サービスを行っています。</p>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
-
+                
                 <div class="row">
+                    <div class="col-md-4 col-12 mt-5">
+                        <div class="features text-center mt-5">
+                            <div class="image position-relative d-inline-block">
+                                <i class="uil uil-mobile-android h1 text-primary"></i>
+                            </div>
+
+                            <div class="content mt-4">
+                                <h5>アプリ開発</h5>
+                                <p class="mb-0">iPhone/iPadアプリ開発、Androidアプリ開発において、業務系からエンタメ系まで幅広い実績がございます。開発、登録申請、運用、マーケティング支援まで、ワンストップでお請けします。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 mt-5">
+                        <div class="features text-center mt-5">
+                            <div class="image position-relative d-inline-block">
+                                <i class="uil uil-airplay h1 text-primary"></i>
+                            </div>
+
+                            <div class="content mt-4">
+                                <h5>WEBシステム</h5>
+                                <p class="mb-0">コーポレートサイト、ブランドサイト、ECサイト、集客サイト、ランディングページ、システム会員サイトまで幅広い制作実績がございます。ユーザーからの視点とビジネスの視点を考慮し柔軟性を持って取り組みます。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 mt-5">
+                        <div class="features text-center mt-5">
+                            <div class="image position-relative d-inline-block">
+                                <i class="uil uil-edit-alt h1 text-primary"></i>
+                            </div>
+
+                            <div class="content mt-4">
+                                <h5>UI/UXデザイン</h5>
+                                <p class="mb-0">スマートフォンのアプリ、Webアプリケーションはもちろんの事、様々なデバイス上で動くUIのデザインをお手伝いします。企画コンセプトからユーザーの使い勝手を設計し、アイコン、ボタンなどUIパーツを作成します。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-5 mt-sm-0"></div>
+                    <div class="col-md-4 col-12 mt-5">
+                        <div class="features text-center mt-5">
+                            <div class="image position-relative d-inline-block">
+                                <i class="uil uil-chart-growth h1 text-primary"></i>
+                            </div>
+
+                            <div class="content mt-4">
+                                <h5>運用・改善</h5>
+                                <p class="mb-0">アプリ、WEBシステムの機能の変更・追加、アプリOSのバージョンアップにおける不具合対応など、弊社で開発した成果物の他にも他社で開発したシステムについても調査を行い、同様に保守対応が可能です。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-5 mt-sm-0"></div>
+                </div>
+
+                <div class="row mt-5">
                     <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0">
+                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
                             <span class="h1 icon2 text-primary">
                                 <i class="uil uil-chart-line"></i>
                             </span>
                             <div class="card-body p-0 content">
-                                <h5>Hign Performance</h5>
-                                <p class="para mb-0">It is a long established fact that a reader.</p>
+                                <h5>ネイティブアプリ開発</h5>
+                                <p class="para mb-0">スタンドアローンアプリ、サーバ通信型アプリをネイティブ言語（Java、Kotlin、Swift）でiOSとAndroid対応アプリを別々に開発します。</p>
                             </div>
                             <span class="big-icon text-center">
                                 <i class="uil uil-chart-line"></i>
@@ -142,13 +229,13 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0">
+                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
                             <span class="h1 icon2 text-primary">
                                 <i class="uil uil-crosshairs"></i>
                             </span>
                             <div class="card-body p-0 content">
-                                <h5>Best Securities</h5>
-                                <p class="para mb-0">It is a long established fact that a reader.</p>
+                                <h5>バックエンドシステム開発</h5>
+                                <p class="para mb-0">アプリ・Webサイトとサーバー側の管理システムを相互に連携させるDBやAPIの設計開発をJava/PHP/MySQLで開発します。</p>
                             </div>
                             <span class="big-icon text-center">
                                 <i class="uil uil-crosshairs"></i>
@@ -157,13 +244,13 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0">
+                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
                             <span class="h1 icon2 text-primary">
                                 <i class="uil uil-airplay"></i>
                             </span>
                             <div class="card-body p-0 content">
-                                <h5>Trusted Service</h5>
-                                <p class="para mb-0">It is a long established fact that a reader.</p>
+                                <h5>ウェブ開発</h5>
+                                <p class="para mb-0"> 業務システム、ECサイト、ポータルサイト、SNSサイトなど、スマートフォンやタブレット対応のWebを企画・開発します。</p>
                             </div>
                             <span class="big-icon text-center">
                                 <i class="uil uil-airplay"></i>
@@ -172,13 +259,13 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0">
+                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
                             <span class="h1 icon2 text-primary">
                                 <i class="uil uil-rocket"></i>
                             </span>
                             <div class="card-body p-0 content">
-                                <h5>Info Technology</h5>
-                                <p class="para mb-0">It is a long established fact that a reader.</p>
+                                <h5>ラボ型開発</h5>
+                                <p class="para mb-0">開発案件が複数ある場合や定期的に発注したい場合、優秀な人材を契約期間中、常に低価格で確保し続けることができます。</p>
                             </div>
                             <span class="big-icon text-center">
                                 <i class="uil uil-rocket"></i>
@@ -187,13 +274,13 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0">
+                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
                             <span class="h1 icon2 text-primary">
                                 <i class="uil uil-clock"></i>
                             </span>
                             <div class="card-body p-0 content">
-                                <h5>24/7 Support</h5>
-                                <p class="para mb-0">It is a long established fact that a reader.</p>
+                                <h5>クロスプラットフォームアプリ開発</h5>
+                                <p class="para mb-0">最新のUIフレームワーク「Flutter」を使い、iOS / Android向けのネイティブアプリを、スピーディかつ表現豊かに開発します。</p>
                             </div>
                             <span class="big-icon text-center">
                                 <i class="uil uil-clock"></i>
@@ -202,13 +289,13 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0">
+                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
                             <span class="h1 icon2 text-primary">
                                 <i class="uil uil-users-alt"></i>
                             </span>
                             <div class="card-body p-0 content">
-                                <h5>IT Management</h5>
-                                <p class="para mb-0">It is a long established fact that a reader.</p>
+                                <h5>クオリティ</h5>
+                                <p class="para mb-0">ユーザーにとって使いやすいデザインを重視し、デバイスの仕様・特性を活かした、UI、UX設計を行います。</p>
                             </div>
                             <span class="big-icon text-center">
                                 <i class="uil uil-users-alt"></i>
@@ -217,13 +304,13 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0">
+                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
                             <span class="h1 icon2 text-primary">
                                 <i class="uil uil-file-alt"></i>
                             </span>
                             <div class="card-body p-0 content">
-                                <h5>Certified Company</h5>
-                                <p class="para mb-0">It is a long established fact that a reader.</p>
+                                <h5>ローコスト</h5>
+                                <p class="para mb-0">ベトナムのオフショア開発拠点のコストメリットを活かし、日本の30％から70％の費用でアプリやウェブを開発します。</p>
                             </div>
                             <span class="big-icon text-center">
                                 <i class="uil uil-file-alt"></i>
@@ -232,13 +319,13 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0">
+                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
                             <span class="h1 icon2 text-primary">
                                 <i class="uil uil-search"></i>
                             </span>
                             <div class="card-body p-0 content">
-                                <h5>Data Analytics</h5>
-                                <p class="para mb-0">It is a long established fact that a reader.</p>
+                                <h5>多言語対応</h5>
+                                <p class="para mb-0">多国展開を推進するにあたり、英語、ベトナム語、日本語をはじめ、その他、多国籍なリソースをご用意できます。</p>
                             </div>
                             <span class="big-icon text-center">
                                 <i class="uil uil-search"></i>
@@ -483,85 +570,70 @@
                 <div class="row justify-content-center">
                     <div class="col-12">
                         <div class="section-title text-center mb-4 pb-2">
-                            <h4 class="title mb-4">Our Mind Power</h4>
-                            <p class="para-desc mx-auto mb-0">Start working with <span class="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                            <h4 class="title mb-4">協力形態</h4>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
 
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                        <div class="card team text-center border-0">
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card blog rounded border-0 shadow">
                             <div class="position-relative">
-                                <img src="images/client/01.jpg" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
-                                <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
-                                </ul><!--end icon-->
+                                <img src="images/home/onsite.png" class="card-img-top rounded-top" alt="...">
+                                <div class="overlay rounded-top bg-dark"></div>
                             </div>
-                            <div class="card-body py-3 px-0 content">
-                                <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Ronny Jofra</a></h5>
-                                <small class="designation">C.E.O</small>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-
-                    <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                        <div class="card team text-center border-0">
-                            <div class="position-relative">
-                                <img src="images/client/04.jpg" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
-                                <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
-                                </ul><!--end icon-->
-                            </div>
-                            <div class="card-body py-3 px-0 content">
-                                <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Micheal Carlo</a></h5>
-                                <small class="designation">Director</small>
+                            <div class="card-body content">
+                                <h5>
+                                    <a href="javascript:void(0)" class="card-title title text-dark">
+                                        オンサイト・オフショア体制
+                                    </a>
+                                </h5>
+                                <div class="post-meta d-flex justify-content-between mt-3">
+                                    
+                                </div>
                             </div>
                         </div>
                     </div><!--end col-->
                     
-                    <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                        <div class="card team text-center border-0">
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card blog rounded border-0 shadow">
                             <div class="position-relative">
-                                <img src="images/client/02.webp" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
-                                <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
-                                </ul><!--end icon-->
+                                <img src="images/home/offshore.png" class="card-img-top rounded-top" alt="...">
+                                <div class="overlay rounded-top bg-dark"></div>
                             </div>
-                            <div class="card-body py-3 px-0 content">
-                                <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Aliana Rosy</a></h5>
-                                <small class="designation">Manager</small>
+                            <div class="ribbon ribbon-right ribbon-warning overflow-hidden"><span class="text-center d-block shadow small h6">Best</span></div>
+                            <div class="card-body content">
+                                <h5>
+                                    <a href="javascript:void(0)" class="card-title title text-dark">
+                                        フルオフショア体制
+                                    </a>
+                                </h5>
+                                <div class="post-meta d-flex justify-content-between mt-3">
+                                    
+                                </div>
                             </div>
                         </div>
                     </div><!--end col-->
                     
-                    <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                        <div class="card team text-center border-0">
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card blog rounded border-0 shadow">
                             <div class="position-relative">
-                                <img src="images/client/03.webp" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
-                                <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
-                                </ul><!--end icon-->
+                                <img src="images/home/half-offshore.png" class="card-img-top rounded-top" alt="...">
+                                <div class="overlay rounded-top bg-dark"></div>
                             </div>
-                            <div class="card-body py-3 px-0 content">
-                                <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Sofia Razaq</a></h5>
-                                <small class="designation">Developer</small>
+                            <div class="card-body content">
+                                <h5>
+                                    <a href="javascript:void(0)" class="card-title title text-dark">
+                                        顧客・オフショア体制
+                                    </a>
+                                </h5>
+                                <div class="post-meta d-flex justify-content-between mt-3">
+                                    
+                                </div>
                             </div>
                         </div>
                     </div><!--end col-->
-                </div><!--end row-->
+                </div>
             </div><!--end container-->
         </section><!--end section-->
 
@@ -571,9 +643,9 @@
                 <div class="row">
                     <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
                         <a href="#" class="logo-footer">
-                            <img src="images/logo-light.webp" height="24" alt="">
+                            <img src="images/UrsaLogoLight.png" height="24" alt="">
                         </a>
-                        <p class="mt-4">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                        <p class="mt-4">WEBシステム、iOS・Android向けアプリ、業務システムの開発や、運用サービスを行っています。</p>
                         <ul class="list-unstyled social-icon social mb-0 mt-4">
                             <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
                             <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
@@ -587,12 +659,8 @@
                         <ul class="list-unstyled footer-list mt-4">
                             <li><a href="page-aboutus.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> About us</a></li>
                             <li><a href="page-services.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Services</a></li>
+                            <li><a href="page-history.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> History</a></li>
                             <li><a href="page-team.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Team</a></li>
-                            <li><a href="page-pricing.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Pricing</a></li>
-                            <li><a href="page-portfolio-modern.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Project</a></li>
-                            <li><a href="page-jobs.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Careers</a></li>
-                            <li><a href="page-blog-grid.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Blog</a></li>
-                            <li><a href="auth-cover-login.html" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Login</a></li>
                         </ul>
                     </div><!--end col-->
                     
@@ -635,7 +703,7 @@
                 <div class="row align-items-center">
                     <div class="col-sm-6">
                         <div class="text-sm-left">
-                            <p class="mb-0">© <script>(new Date()).getFullYear()</script> URSA. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="http://shreethemes.in/" target="_blank" rel="noreferrer" class="text-reset">Shreethemes</a>.</p>
+                            <p class="mb-0">© 2020 URSA Company. All Rights Reserved.</p>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->

@@ -314,3 +314,9 @@ a.text-primary:focus {
 .history-page .single-product-area .product-content h5{
     color: #222;
 }
+
+.history-page .single-product-area .product_thumbnail a:hover{
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(148,147,75,1) !important;
+    -moz-box-shadow: 0px 0px 5px 2px rgba(148,147,75,1) !important;
+    box-shadow: 0px 0px 5px 2px rgba(148,147,75,1) !important;
+}

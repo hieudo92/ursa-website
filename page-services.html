@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
-    <html lang="ja">
+<html lang="en">
 
     <head>
         <meta charset="utf-8" />
-        <title>URSA - Privacy Policy</title>
+        <title>URSA - SAY IT, DO IT</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="URSAは最適なソリューションでお客様の企業体質強化を支援します。" />
         <meta name="keywords" content="URSA, IT Solution, Web Development, Company, Say it, Do it" />
@@ -12,63 +11,19 @@
         <meta name="email" content="hieu250192@gmail.com" />
         <meta name="website" content="https://ursa.vn" />
         <meta name="Version" content="v1.1" />
-        <!-- Custom manifest -->
-        <meta name="theme-color" content="#f7961c"/>
-        <meta name="apple-mobile-web-app-title" content="URSA - The Best IT Solution Company">
-
         <!-- favicon -->
-        <link rel="apple-touch-icon-precomposed" href="images/logo/apple-touch-icon.png" />
         <link rel="shortcut icon" href="images/logo/favicon.ico">
         <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
-        <!-- Magnific -->
-        <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <!-- Icons -->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.3/css/line.css" type="text/css" media="screen">
-        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" media="screen" />
-        <!-- Slider -->
-        <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css" media="screen" />
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.3/css/line.css">
         <!-- Main Css -->
-        <link href="css/style.min.css" rel="stylesheet" type="text/css" media="screen" id="theme-opt" />
-        <link href="css/colors/yellow.css" rel="stylesheet" type="text/css" media="screen" id="color-opt">
-        <style>
-            :root {
-                --uim-primary-opacity: 1;
-                --uim-secondary-opacity: 0.70;
-                --uim-tertiary-opacity: 0.50;
-                --uim-quaternary-opacity: 0.25;
-                --uim-quinary-opacity: 0;
-            }
-            .uim-svg {
-                display: inline-block;
-                height: 1em;
-                vertical-align: -0.125em;
-                font-size: inherit;
-                fill: var(--uim-color, currentColor);
-            }
-            .uim-svg svg {
-                display: inline-block;
-            }
-            .uim-primary {
-                opacity: var(--uim-primary-opacity);
-            }
-            .uim-secondary {
-                opacity: var(--uim-secondary-opacity);
-            }
-            .uim-tertiary {
-                opacity: var(--uim-tertiary-opacity);
-            }
-            .uim-quaternary {
-                opacity: var(--uim-quaternary-opacity);
-            }
-            .uim-quinary {
-                opacity: var(--uim-quinary-opacity);
-            }
-        </style>
+        <link href="css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
+        <link href="css/colors/yellow.css" rel="stylesheet" id="color-opt">
     </head>
 
-    <body>
+    <body class="service-page">
         <!-- Loader -->
         <div id="preloader">
             <div id="status">
@@ -80,17 +35,19 @@
         </div>
         <!-- Loader -->
         
-        <!-- Navbar STart -->
-        <header id="topnav" class="defaultscroll sticky">
+        <header id="topnav" class="defaultscroll sticky active">
             <div class="container">
                 <!-- Logo container-->
                 <div>
                     <a class="logo" href="index.html">
-                        <img src="images/logo-dark.png" height="24" alt="">
+                        <img src="images/UrsaLogoLight.png" class="logo-dark" height="24" alt="">
                     </a>
                 </div>                 
                 <div class="buy-button">
-                    <a href="page-contact.html" target="_blank" rel="noreferrer" class="btn btn-primary">お問い合わせ</a>
+                    <a href="page-contact.html" target="_blank" rel="noreferrer">
+                        <div class="btn btn-primary login-btn-primary">お問い合わせ</div>
+                        <div class="btn btn-light login-btn-light">お問い合わせ</div>
+                    </a>
                 </div><!--end login button-->
                 <!-- End Logo container-->
                 <div class="menu-extras">
@@ -109,45 +66,41 @@
         
                 <div id="navigation">
                     <!-- Navigation Menu-->
-                    <ul class="navigation-menu">
+                    <ul class="navigation-menu nav-light">
                         <li><a href="index.html">ホーム</a></li>
                         <li><a href="page-aboutus.html">会社概要</a></li>
                         <li><a href="page-services.html">サービス</a></li>
                         <li><a href="page-history.html">開発実績</a></li>
                         <li><a href="page-team.html">チーム</a></li>
                     </ul><!--end navigation menu-->
-                    <div class="buy-menu-btn d-none">
-                        <a href="page-contact.html" target="_blank" rel="noreferrer" class="btn btn-primary">お問い合わせ</a>
-                    </div><!--end login button-->
                 </div><!--end navigation-->
             </div><!--end container-->
-        </header><!--end header-->
-        <!-- Navbar End -->
-        
+        </header>
+
         <!-- Hero Start -->
         <section class="bg-half bg-light d-table w-100">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12 text-center">
                         <div class="page-next-level">
-                            <h4 class="title"> 個人情報保護方針 </h4>
-                            <ul class="list-unstyled mt-4">
-                                <li class="list-inline-item h6 date text-muted"> <span class="text-dark">最終改訂日 :</span> 2021/02/15</li>
-                            </ul>
+                            <h4 class="title"> サービス </h4>
                             <div class="page-next">
                                 <nav aria-label="breadcrumb" class="d-inline-block">
                                     <ul class="breadcrumb bg-white rounded shadow mb-0">
                                         <li class="breadcrumb-item"><a href="/">ホーム</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">個人情報保護方針</li>
+                                        <li class="breadcrumb-item active" aria-current="page">サービス</li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
-                    </div>  <!--end col-->
+                    </div><!--end col-->
+                    <div class="col-lg-12 text-center">
+                        当社ではラボ型開発、受託型開発、ベトナム進出事業を中心とし、お客様のより良いビジネスパートナーとして最大限にバックアップしていきます。高い技術力と確かな信頼をモットーに最高のサービスをご提供いたします。
+                    </div>
                 </div><!--end row-->
             </div> <!--end container-->
         </section><!--end section-->
-        <!-- Hero End -->   
+        <!-- Hero End -->
 
         <!-- Shape Start -->
         <div class="position-relative">
@@ -158,63 +111,107 @@
             </div>
         </div>
         <!--Shape End-->
-        
-        <!-- Start Privacy -->
+
+        <!-- Feature Start -->
         <section class="section">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-9">
-                        <div class="card shadow rounded border-0">
-                            <div class="card-body">
-                                <h3 class="card-title">個人情報保護の理念</h3>
-                                <p>URSA株式会社（以下、「当社」という）は、ITコンサルティング、オフショア開発、システム開発事業を核とした事業活動を行っています。事業活動を通じて当社が取り扱うすべての個人情報（以下、「個人情報」という）は、当社にとって大変重要な情報資産であり、その個人情報を確実に保護することは、当社の重要な社会的責務と認識しております。</p>
-                                <p>したがって、当社は、事業活動を通じて取得する個人情報を、以下の方針に従って取り扱い、個人情報保護に関して、お客様および当社社員への「安心」の提供および社会的責務を果たしていきます。</p>
-                                <br>
-                                <hr>
-                                <h4 class="card-title">方針</h4>
-                                <p><strong>1．個人情報の取得・利用に関して</strong></p>
-                                <ul class="list-unstyled">
-                                    <li><i data-feather="arrow-right" class="fea icon-sm mr-2"></i>適法、かつ、公正な手段によって個人情報を取得いたします。</li>
-                                    <li><i data-feather="arrow-right" class="fea icon-sm mr-2"></i>利用目的の達成に必要な範囲内で、個人情報を利用いたします。</li>
-                                    <li><i data-feather="arrow-right" class="fea icon-sm mr-2"></i>取得した個人情報の目的外利用はいたしません。また目的外利用を行わないための措置を講じます。</li>
-                                    <li><i data-feather="arrow-right" class="fea icon-sm mr-2"></i>本方針は、すべての従業者に配付して周知させるとともに、当社のホームページ、パンフレットなどに掲載することにより、いつでもどなたにも入手可能な措置を取るものとします。</li>
-                                </ul>
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <div class="features mt-5">
+                            <div class="image position-relative d-inline-block">
+                                <i class="uil uil-edit-alt h1 text-primary"></i>
+                            </div>
 
-                                <p><strong>2．法令、国が定める指針、その他の規範（以下、「法令等」という。）に関して</strong></p>
-                                <p>個人情報を取り扱う事業に関連する法令等を常に把握することに努め、当社事業に従事する従業員（以下、「従業員」という）および取引先に周知し遵守いたします。</p>
+                            <div class="content mt-4">
+                                <h5>ラボ型開発</h5>
+                                <p class="text-muted mb-0">ラボ型開発は、お客様側の担当者様と当社のベトナム人開発者とで専属チームを作り、プロジェクトを進める開発形態です。柔軟性が高く、今人気の開発スタイルです。</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-md-4 col-12 mt-5">
+                        <div class="features">
+                            <div class="image position-relative d-inline-block">
+                                <i class="uil uil-vector-square h1 text-primary"></i>
+                            </div>
 
-                                <p><strong>3．個人情報の安全管理に関して</strong></p>
-                                <ul class="list-unstyled">
-                                    <li><i data-feather="arrow-right" class="fea icon-sm mr-2"></i>漏えい防止について、コンピュータ、ネットワークおよび施設、設備に適切な対策を実施いたします。</li>
-                                    <li><i data-feather="arrow-right" class="fea icon-sm mr-2"></i>滅失、または、き損を確実に防止するために、災害、障害などに備えます。かつ情報のバックアップを行い、万一に備えます。</li>
-                                    <li><i data-feather="arrow-right" class="fea icon-sm mr-2"></i>点検を実施し、発見された違反、事件および事故に対して、速やかにこれを是正するとともに、弱点に対する予防処置を実施いたします。</li>
-                                    <li><i data-feather="arrow-right" class="fea icon-sm mr-2"></i>安全に関する教育を、従業員、取引先に徹底いたします。</li>
-                                </ul>
+                            <div class="content mt-4">
+                                <h5>受託型開発</h5>
+                                <p class="text-muted mb-0">受託型開発は、お客様からの案件単位で契約を結ぶ形態です。お客様側でご提示いただく各種仕様書に合わせて当社で開発をいたします。</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-md-4 col-12 mt-5">
+                        <div class="features">
+                            <div class="image position-relative d-inline-block">
+                                <i class="uil uil-file-search-alt h1 text-primary"></i>
+                            </div>
 
-                                <p><strong>4．苦情・相談に関して</strong></p>
-                                <p>お問い合わせについて、適切かつ速やかに対応いたします。</p>
-
-                                <p><strong>5．継続的改善に関して</strong></p>
-                                <ul class="list-unstyled">
-                                    <li><i data-feather="arrow-right" class="fea icon-sm mr-2"></i>当社の個人情報保護マネジメントシステムは、個人情報保護方針達成のため、内部規程遵守状況を監視および監査し、違反、事件、事故および弱点の発見に努め、経営者による見直しを実施いたします。これを管理策および内部規程に反映し、個人情報保護マネジメントシステムの継続的改善に努めます。</li>
-                                    <li><i data-feather="arrow-right" class="fea icon-sm mr-2"></i>改善においては、法令等およびJIS Q 15001に準拠いたします。</li>
-                                </ul>
-                                <br>
-                                <ul class="list-unstyled text-right">
-                                    <li>制定日　：2021年2月15日</li>
-<!--                                    <li>改訂日　：2021年2月15日</li>-->
-                                    <li>URSA株式会社</li>
-                                    <li>代表取締役　ドー・チュン・ヒェウ</li>
-                                </ul>
-
-                                <a href="javascript:void(0)" class="btn btn-primary">Print</a>
+                            <div class="content mt-4">
+                                <h5>ベトナム進出支援</h5>
+                                <p class="text-muted mb-0">IT分野においてベトナムへ拠点を新設されするためのお手伝いを当社で担当させていただきます。 手続き方法や人財確保、物件確保、運営に至るまでサポートいたします。</p>
                             </div>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
             </div><!--end container-->
         </section><!--end section-->
-        <!-- End Privacy -->
+        <!-- Feature Start -->
+
+        <section class="section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="bg-light p-3 rounded-md shadow mr-lg-5">
+                            <img src="images/services/1.png" class="img-fluid mx-auto d-block" alt="">
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title">
+                            <h4 class="title mb-4">ラボ型開発</h4>
+                            <p class="para-desc">お客様側の担当者様と当社のエンジニアで専属のチームを作りプロジェクトを進めるモデルです。ラボ型開発のメリットは、お客様側で仕様変更があっても、その都度、見積もりや契約の更新が発生することがなくチーム内の人員を使って柔軟に開発できる、またアジャイル形式での開発や保守運用なども幅広い分野での構築も可能です。 ラボの運用については、以下の２種類のパターンがあります。</p>
+                            <small class="text-muted">ラボ人員の増減については、柔軟に対応いたします。また、ベトナムへ駐在される場合の住居手配、ビザの取得、更新、各種お手続き生活面でのお困りごとなどについても当社でバックアップいたします。</small>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row align-items-center mt-5">
+                    <div class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0 d-block d-sm-none">
+                        <div class="bg-light p-3 rounded-md shadow">
+                            <img src="images/services/2.png" class="img-fluid mx-auto d-block" alt="">
+                        </div>
+                    </div><!--end col-->
+                    <div class="col-md-6">
+                        <div class="section-title mr-lg-5">
+                            <h4 class="title mb-4">受託型開発</h4>
+                            <p class="para-desc">お客様側の担当者様と当社日本人プロジェクトマネージャーが中心となり進めていく開発スタイルです。仕様変更などがある場合、その都度、内容を確認しお見積り、承認、スケジュール変更や再契約などの業務が発生いたします。運用を伴わない短期的なシステム構築にはこちらの開発形態をお勧めいたします。</p>
+                        </div>
+                    </div><!--end col-->
+                    <div class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0 d-none d-sm-block">
+                        <div class="bg-light p-3 rounded-md shadow">
+                            <img src="images/services/2.png" class="img-fluid mx-auto d-block" alt="">
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row align-items-center mt-5">
+                    <div class="col-md-6">
+                        <div class="bg-light p-3 rounded-md shadow mr-lg-5">
+                            <img src="images/services/3.png" class="img-fluid mx-auto d-block" alt="">
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title">
+                            <h4 class="title mb-4">ベトナム進出支援</h4>
+                            <p class="para-desc">当社では、日本のIT企業のベトナム進出のお手伝いをいたします。オフィスの手配から人財の確保、また会社設立の手順や従業員の手続きとありとあらゆるサポートをいたします。また、当社でラボ契約をいただいたお客様が、チームを独立させて、現地法人化させることも可能です。 会社設立後は、当社の方で会社運営のコンサルティングなど進出後のバックアップもいたします</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section>
 
         <!-- Footer Start -->
         <footer class="footer">
@@ -292,6 +289,9 @@
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/jquery.easing.min.js"></script>
         <script src="js/scrollspy.min.js"></script>
+        <!-- SLIDER -->
+        <script src="js/owl.carousel.min.js "></script>
+        <script src="js/owl.init.js"></script>
         <!-- Icons -->
         <script src="js/feather.min.js"></script>
         <script src="https://unicons.iconscout.com/release/v3.0.3/script/monochrome/bundle.js"></script>

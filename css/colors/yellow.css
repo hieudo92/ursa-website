@@ -302,3 +302,15 @@ a.text-primary:focus {
 #topnav.nav-sticky{
     background: #ffffff !important;
 }
+
+.history-page .list-project{
+    margin-top: 60px;
+}
+
+.history-page .single-product-area .product_thumbnail{
+    height: 200px;
+}
+
+.history-page .single-product-area .product-content h5{
+    color: #222;
+}

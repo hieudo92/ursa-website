@@ -32,40 +32,6 @@
         <!-- Main Css -->
         <link href="css/style.min.css" rel="stylesheet" type="text/css" media="screen" id="theme-opt" />
         <link href="css/colors/yellow.css" rel="stylesheet" type="text/css" media="screen" id="color-opt">
-        <style>
-            :root {
-                --uim-primary-opacity: 1;
-                --uim-secondary-opacity: 0.70;
-                --uim-tertiary-opacity: 0.50;
-                --uim-quaternary-opacity: 0.25;
-                --uim-quinary-opacity: 0;
-            }
-            .uim-svg {
-                display: inline-block;
-                height: 1em;
-                vertical-align: -0.125em;
-                font-size: inherit;
-                fill: var(--uim-color, currentColor);
-            }
-            .uim-svg svg {
-                display: inline-block;
-            }
-            .uim-primary {
-                opacity: var(--uim-primary-opacity);
-            }
-            .uim-secondary {
-                opacity: var(--uim-secondary-opacity);
-            }
-            .uim-tertiary {
-                opacity: var(--uim-tertiary-opacity);
-            }
-            .uim-quaternary {
-                opacity: var(--uim-quaternary-opacity);
-            }
-            .uim-quinary {
-            opacity: var(--uim-quinary-opacity);
-            }
-        </style>
     </head>
 
     <body>
@@ -118,6 +84,7 @@
                         <li><a href="page-aboutus.html">会社概要</a></li>
                         <li><a href="page-services.html">サービス</a></li>
                         <li><a href="page-history.html">開発実績</a></li>
+                        <li><a href="page-process.html">作業工程</a></li>
                         <li><a href="page-team.html">チーム</a></li>
                     </ul><!--end navigation menu-->
                 </div><!--end navigation-->
@@ -129,19 +96,18 @@
         <section class="bg-half-170 pb-0 bg-primary d-table w-100" style="background: url('images/bg2.webp') center center;">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-7 col-md-6">
+                    <div class="col-lg-8 col-md-6">
                         <div class="title-heading">
-<!--                            <h4 class="text-white-50">We are creative</h4>-->
-                            <h4 class="heading text-white mb-3 title-dark">URSAは最適なソリューションでお客様の企業体質強化を支援します。</h4>
-<!--                            <p class="para-desc text-white-50">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap4 html page.</p>-->
+                            <h4 class="heading text-white mb-3 title-dark">URSAは最適なソリューションで</h4>
+                            <h4 class="heading text-white mb-3 title-dark">お客様の企業体質強化を支援します。</h4>
                             <div class="mt-4 pt-2">
                                 <a href="page-contact.html" class="btn btn-light" target="_blank" rel="noreferrer">お問い合わせ</a>
                             </div>
                         </div>
                     </div><!--end col-->
 
-                    <div class="col-lg-5 col-md-6 mt-5 mt-sm-0">
-                        <img src="images/hero1.webp" class="img-fluid" alt="">
+                    <div class="col-lg-4 col-md-6 mt-5 mt-sm-0">
+                        <img src="images/represent_01.png" class="img-fluid" alt="">
                     </div>
                 </div><!--end row-->
             </div> <!--end container-->
@@ -160,7 +126,7 @@
                 </div><!--end row-->
                 
                 <div class="row">
-                    <div class="col-md-4 col-12 mt-5">
+                    <div class="col-md-4 col-12 mt-5 p-4">
                         <div class="features text-center mt-5">
                             <div class="image position-relative d-inline-block">
                                 <i class="uil uil-mobile-android h1 text-primary"></i>
@@ -172,7 +138,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-12 mt-5">
+                    <div class="col-md-4 col-12 mt-5 p-4">
                         <div class="features text-center mt-5">
                             <div class="image position-relative d-inline-block">
                                 <i class="uil uil-airplay h1 text-primary"></i>
@@ -184,7 +150,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-12 mt-5">
+                    <div class="col-md-4 col-12 mt-5 p-4">
                         <div class="features text-center mt-5">
                             <div class="image position-relative d-inline-block">
                                 <i class="uil uil-chart-growth h1 text-primary"></i>
@@ -200,13 +166,13 @@
 
                 <div class="row mt-5">
                     <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
+                        <div class="card features fea-primary rounded p-3 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
                             <span class="h1 icon2 text-primary">
                                 <i class="uil uil-mobile-vibrate"></i>
                             </span>
                             <div class="card-body p-0 content">
                                 <h5>ネイティブアプリ開発</h5>
-                                <p class="para mb-0"><small>スタンドアローンアプリ、サーバ通信型アプリをネイティブ言語（Java、Kotlin、Swift）でiOSとAndroid対応アプリを別々に開発します。</small></p>
+                                <p class="para text-muted mb-0">スタンドアローンアプリ、サーバ通信型アプリをネイティブ言語（Java、Kotlin、Swift）でiOSとAndroid対応アプリを別々に開発します。</p>
                             </div>
                             <span class="big-icon text-center">
                                 <i class="uil uil-mobile-vibrate"></i>
@@ -215,13 +181,14 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
+                        <div class="card features fea-primary rounded p-3 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
                             <span class="h1 icon2 text-primary">
                                 <i class="uil uil-web-section"></i>
                             </span>
                             <div class="card-body p-0 content">
                                 <h5>バックエンドシステム開発</h5>
-                                <p class="para text-muted mb-0">アプリ・Webサイトとサーバー側の管理システムを相互に連携させるDBやAPIの設計開発をJava/PHP/MySQLで開発します。</p>
+                                <p class="para text-muted mb-0">アプリ・Webサイトとサーバー側の管理システムを相互に連携させるDBやAPIの設計開発をJava/PHP/MySQLで</p>
+                                <p class="para text-muted mb-0">開発します。</p>
                             </div>
                             <span class="big-icon text-center">
                                 <i class="uil uil-web-section"></i>
@@ -230,7 +197,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
+                        <div class="card features fea-primary rounded p-3 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
                             <span class="h1 icon2 text-primary">
                                 <i class="uil uil-web-grid"></i>
                             </span>
@@ -245,13 +212,14 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
+                        <div class="card features fea-primary rounded p-3 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
                             <span class="h1 icon2 text-primary">
                                 <i class="uil uil-rocket"></i>
                             </span>
                             <div class="card-body p-0 content">
                                 <h5>ラボ型開発</h5>
-                                <p class="para text-muted mb-0">開発案件が複数ある場合や定期的に発注したい場合、優秀な人材を契約期間中、常に低価格で確保し続けることができます。</p>
+                                <p class="para text-muted mb-0">開発案件が複数ある場合や定期的に発注したい場合、優秀な人材を契約期間中、常に低価格で確保し続けることが</p>
+                                <p class="para text-muted mb-0">できます。</p>
                             </div>
                             <span class="big-icon text-center">
                                 <i class="uil uil-rocket"></i>
@@ -260,7 +228,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
+                        <div class="card features fea-primary rounded p-3 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
                             <span class="h1 icon2 text-primary">
                                 <i class="uil uil-server-network"></i>
                             </span>
@@ -275,7 +243,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
+                        <div class="card features fea-primary rounded p-3 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
                             <span class="h1 icon2 text-primary">
                                 <i class="uil uil-chart-growth"></i>
                             </span>
@@ -290,13 +258,14 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
+                        <div class="card features fea-primary rounded p-3 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
                             <span class="h1 icon2 text-primary">
                                 <i class="uil uil-chart-down"></i>
                             </span>
                             <div class="card-body p-0 content">
                                 <h5>ローコスト</h5>
-                                <p class="para text-muted mb-0">ベトナムのオフショア開発拠点のコストメリットを活かし、日本の30％から70％の費用でアプリやウェブを開発します。</p>
+                                <p class="para text-muted mb-0">ベトナムのオフショア開発拠点のコストメリットを活かし、日本の30％から70％の費用でアプリやウェブを</p>
+                                <p class="para text-muted mb-0">開発します。</p>
                             </div>
                             <span class="big-icon text-center">
                                 <i class="uil uil-chart-down"></i>
@@ -305,7 +274,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 mt-4 pt-2">
-                        <div class="card features fea-primary rounded p-4 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
+                        <div class="card features fea-primary rounded p-3 bg-light text-center position-relative overflow-hidden border-0 ursa-what-we-do">
                             <span class="h1 icon2 text-primary">
                                 <i class="uil uil-language"></i>
                             </span>
@@ -400,7 +369,7 @@
                         <div class="counter-box text-center">
                             <img src="images/illustrator/Asset190.svg" class="avatar avatar-small" alt="">
                             <h2 class="mb-0 mt-4"><span class="counter-value" data-count="97">3</span>%</h2>
-                            <h6 class="counter-head">幸せなクライアント</h6>
+                            <h6 class="counter-head">顧客満足度</h6>
                         </div><!--end counter box-->
                     </div>
 
@@ -424,7 +393,7 @@
                         <div class="counter-box text-center">
                             <img src="images/illustrator/Asset187.svg" class="avatar avatar-small" alt="">
                             <h2 class="mb-0 mt-4"><span class="counter-value" data-count="98">3</span>%</h2>
-                            <h6 class="counter-head">プロジェクト完了</h6>
+                            <h6 class="counter-head">日本語対応</h6>
                         </div><!--end counter box-->
                     </div>
                 </div><!--end row-->
@@ -445,7 +414,7 @@
                 </div><!--end row-->
 
                 <div class="row">
-                    <div class="col-md-4 mt-4 pt-2">
+                    <div class="col-md-4 mt-md-5 pt-md-5 mt-4 pt-2">
                         <div class="card features feature-clean work-process bg-transparent process-arrow border-0">
                             <div class="icons text-primary text-center mx-auto">
                                 <i class="uil uil-presentation-edit d-block rounded h3 mb-0"></i>
@@ -472,7 +441,7 @@
                         </div>
                     </div><!--end col-->
                     
-                    <div class="col-md-4 mt-md-5 pt-md-5 mt-4 pt-2">
+                    <div class="col-md-4 pt-2">
                         <div class="card features feature-clean work-process bg-transparent d-none-arrow border-0">
                             <div class="icons text-primary text-center mx-auto">
                                 <i class="uil uil-image-check d-block rounded h3 mb-0"></i>
@@ -499,7 +468,7 @@
 
                 <div class="row">
                     <div class="col-lg-4 col-md-6 mt-4 pt-2">
-                        <div class="card blog rounded border-0 shadow">
+                        <div class="card blog rounded border-0 shadow" style="min-height: 400px;">
                             <div class="position-relative">
                                 <img src="images/home/offshore.png" class="card-img-top rounded-top" alt="...">
                                 <div class="overlay rounded-top bg-dark"></div>
@@ -530,7 +499,7 @@
                     </div><!--end col-->
 
                     <div class="col-lg-4 col-md-6 mt-4 pt-2">
-                        <div class="card blog rounded border-0 shadow">
+                        <div class="card blog rounded border-0 shadow" style="min-height: 400px;">
                             <div class="position-relative">
                                 <img src="images/home/onsite.png" class="card-img-top rounded-top" alt="...">
                                 <div class="overlay rounded-top bg-dark"></div>
@@ -543,11 +512,6 @@
                                 </h5>
                                 <div class="post-meta d-flex justify-content-between mt-3">
                                     <ul class="list-unstyled mb-0">
-                                        <li class="list-inline-item">
-                                            <a href="javascript:void(0)" class="text-muted like">
-                                                <i class="mdi mdi-check-circle-outline mr-1"></i> オンサイトメンバーを出向
-                                            </a>
-                                        </li>
                                         <li class="list-inline-item">
                                             <a href="javascript:void(0)" class="text-muted comments">
                                                 <i class="mdi mdi-check-circle-outline mr-1"></i> 上流工程参画
@@ -565,7 +529,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-4 col-md-6 mt-4 pt-2">
-                        <div class="card blog rounded border-0 shadow">
+                        <div class="card blog rounded border-0 shadow" style="min-height: 400px;">
                             <div class="position-relative">
                                 <img src="images/home/half-offshore.png" class="card-img-top rounded-top" alt="...">
                                 <div class="overlay rounded-top bg-dark"></div>
